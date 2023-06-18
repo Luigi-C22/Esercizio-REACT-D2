@@ -1,14 +1,16 @@
 import './App.css';
-import NavigationBar from './components/NavigationBar';
+import MyNav from './components/MyNav';
 import LatestRelease from './components/main/LatestRelease';
-
+import Welcome from './components/main/Welcome';
+import MyFooter from './components/main/MyFooter';
 
 function App() {
   return (
     <>
-    <NavigationBar />
+    <MyNav />
+    <Welcome />
     <LatestRelease />
-
+    <MyFooter />
     </>
     
   );

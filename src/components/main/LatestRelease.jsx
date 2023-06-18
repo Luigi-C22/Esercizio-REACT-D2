@@ -8,7 +8,7 @@ class LatestRelease extends Component {
     render() {
         return (
             <Container>
-                <Row className="d-flex flex-wrap ">
+                <Row className="d-flex flex-wrap gap-3">
                     {
                         ScifiBook.map((book) => {
                             return (
